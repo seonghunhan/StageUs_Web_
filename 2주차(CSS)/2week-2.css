@@ -1,0 +1,40 @@
+
+
+#first {
+    background-color: red;
+    display: block;
+}
+
+/* span은 길이를 조절못함 그래서 display : inline-block사용 */
+/* 디스플레이는 표현방법에 가까움 */
+/* 포지션이 배치방법에 가까움 */
+
+
+#second {
+    background-color: orange;
+    display: block;
+    position: absolute;
+    left : 100px;
+    top: 100px;
+}
+
+#third {
+    background-color: yellow;
+    display: contents;
+}
+#parent {
+    margin-left: auto;
+
+}
+
+#fourth {
+    margin:0;
+    background-color: green;
+    display: block;
+}
+
+.box {
+    font-size : 10px; 
+    width: 50px;
+    height:100px;
+}
