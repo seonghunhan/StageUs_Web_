@@ -630,7 +630,7 @@
 
 .C2_Thirdline {
     border : 1px dotted black;
-    height : 250px ;
+    height : 450px ;
     flex-direction: column;
     display : flex;    
 }
@@ -643,3 +643,833 @@
     margin : 2px ;
     padding : 2px ;
 }
+
+.aaa {
+    border : 1px dotted black;
+    display: flex;
+    height : 40px ;
+    width : 95% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#image3-2 {
+    border : 1px dotted black;
+    width : 20%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+#text3-2 {
+    border : 1px dotted black;
+    width : 80%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+.bbb {
+    border : 1px dotted black;
+    display: flex;
+    height : 40px ;
+    width : 95% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#image3-3 {
+    border : 1px dotted black;
+    width : 20%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+#text3-3 {
+    border : 1px dotted black;
+    width : 80%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+.ccc {
+    border : 1px dotted black;
+    display: flex;
+    height : 40px ;
+    width : 95% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#image3-4 {
+    border : 1px dotted black;
+    width : 20%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+#text3-4 {
+    border : 1px dotted black;
+    width : 80%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+.ddd {
+    border : 1px dotted black;
+    display: flex;
+    height : 40px ;
+    width : 95% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#image3-5 {
+    border : 1px dotted black;
+    width : 20%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+#text3-5 {
+    border : 1px dotted black;
+    width : 80%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+.eee {
+    border : 1px dotted black;
+    display: flex;
+    height : 40px ;
+    width : 95% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#image3-6 {
+    border : 1px dotted black;
+    width : 20%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+#text3-6 {
+    border : 1px dotted black;
+    width : 80%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+.fff {
+    border : 1px dotted black;
+    display: flex;
+    height : 40px ;
+    width : 95% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#image3-7 {
+    border : 1px dotted black;
+    width : 20%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+#text3-7 {
+    border : 1px dotted black;
+    width : 80%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+.ggg {
+    border : 1px dotted black;
+    display: flex;
+    height : 40px ;
+    width : 95% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#image3-8 {
+    border : 1px dotted black;
+    width : 20%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+#text3-8 {
+    border : 1px dotted black;
+    width : 80%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+.hhh {
+    border : 1px dotted black;
+    display: flex;
+    height : 40px ;
+    width : 95% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#image3-9 {
+    border : 1px dotted black;
+    font-weight : right;
+    width : 20%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+#text3-9 {
+    border : 1px dotted black;
+    font-weight : right;
+    width : 80%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+.C2_Fourthline {
+    border : 1px dotted black;
+    height : 350px ;
+    flex-direction: column;
+    display : flex;    
+}
+
+#C2_F_Label {
+    border : 1px dotted black;
+    display: flex;
+    font-weight: lighter;
+    height : 40px ;
+    width : 95% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.aaa4 {
+    border : 1px dotted black;
+    display: flex;
+    height : 40px ;
+    width : 95% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#image4-1 {
+    border : 1px dotted black;
+    font-weight : right;
+    width : 20%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+#text4-1 {
+    border : 1px dotted black;
+    font-weight : right;
+    width : 80%;
+    height : 80% ;
+    margin : 1px ;
+    padding : 2px ;
+}
+
+.Gridcontainer {
+	display: grid;
+    /* display: inline-grid; */
+    /* grid-template-columns: 200px 200px 500px; */
+	/* grid-template-columns: 1fr 1fr 1fr 1fr; */
+	grid-template-columns: repeat(4, 1fr);
+	/* grid-template-columns: 200px 1fr */
+	/* grid-template-columns: 100px 200px auto */
+
+	/* grid-template-rows: 200px 200px 500px; */
+	/* grid-template-rows: 1fr 1fr 1fr 1fr; */
+	grid-template-rows: repeat(4, 1fr);
+	/* grid-template-rows: 200px 1fr */
+	/* grid-template-rows: 100px 200px auto */
+
+    gap: 100px 200px;
+    grid-gap: 20px;
+    position: absolute;
+    top: 60px;
+    left: 220px;
+}
+
+.item_1-1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border : 1px dotted black;
+    height : 250px ;
+    width : 350px ;
+}
+
+#Thumbnail1 {
+    border : 1px dotted black;
+    height : 70% ;
+    width : 97% ; 
+
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.item_1-2 {
+    display :flex;
+    flex-direction: row;
+    border : 1px dotted black;
+    height : 30% ;
+    width : 97% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#YouTuber_image1 {
+    border : 1px dotted black;
+    height : 87% ;
+    width : 30% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.Info_1_1{
+    border : 1px dotted black;
+    display:flex;
+    flex-direction: column;
+    height : 87% ;
+    width : 70% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#title_1 {
+    border : 1px dotted black;
+    height : 60% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+#YouTuber_Name1 {
+    border : 1px dotted black;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+#Info_1_2 {
+    border : 1px dotted black;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+
+.item_2-1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border : 1px dotted black;
+    height : 250px ;
+    width : 350px ;
+}
+
+#Thumbnail2 {
+    border : 1px dotted black;
+    height : 70% ;
+    width : 97% ; 
+
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.item_2-2 {
+    display :flex;
+    flex-direction: row;
+    border : 1px dotted black;
+    height : 30% ;
+    width : 97% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#YouTuber_image2 {
+    border : 1px dotted black;
+    height : 87% ;
+    width : 30% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.Info_2_1{
+    border : 1px dotted black;
+    display:flex;
+    flex-direction: column;
+    height : 87% ;
+    width : 70% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#title_2 {
+    border : 1px dotted black;
+    height : 60% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+#YouTuber_Name2 {
+    border : 1px dotted black;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+#Info_2_2 {
+    border : 1px dotted black;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+
+.item_3-1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border : 1px dotted black;
+    height : 250px ;
+    width : 350px ;
+}
+
+#Thumbnail3 {
+    border : 1px dotted black;
+    height : 70% ;
+    width : 97% ; 
+
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.item_3-2 {
+    display :flex;
+    flex-direction: row;
+    border : 1px dotted black;
+    height : 30% ;
+    width : 97% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#YouTuber_image3 {
+    border : 1px dotted black;
+    height : 87% ;
+    width : 30% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.Info_3_1{
+    border : 1px dotted black;
+    display:flex;
+    flex-direction: column;
+    height : 87% ;
+    width : 70% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#title_3 {
+    border : 1px dotted black;
+    height : 60% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+#YouTuber_Name3 {
+    border : 1px dotted black;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+#Info_3_2 {
+    border : 1px dotted black;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+
+
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+
+.item_4-1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border : 1px dotted black;
+    height : 250px ;
+    width : 350px ;
+}
+
+#Thumbnail4 {
+    border : 1px dotted black;
+    height : 70% ;
+    width : 97% ; 
+
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.item_4-2 {
+    display :flex;
+    flex-direction: row;
+    border : 1px dotted black;
+    height : 30% ;
+    width : 97% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#YouTuber_image4 {
+    border : 1px dotted black;
+    height : 87% ;
+    width : 30% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.Info_4_1{
+    border : 1px dotted black;
+    display:flex;
+    flex-direction: column;
+    height : 87% ;
+    width : 70% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#title_4 {
+    border : 1px dotted black;
+    height : 60% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+#YouTuber_Name4 {
+    border : 1px dotted black;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+#Info_4_2 {
+    border : 1px dotted black;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+
+
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+
+.item_5-1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border : 1px dotted black;
+    height : 250px ;
+    width : 350px ;
+}
+
+#Thumbnail5 {
+    border : 1px dotted black;
+    height : 70% ;
+    width : 97% ; 
+
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.item_5-2 {
+    display :flex;
+    flex-direction: row;
+    border : 1px dotted black;
+    height : 30% ;
+    width : 97% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#YouTuber_image5 {
+    border : 1px dotted black;
+    height : 87% ;
+    width : 30% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.Info_5_1{
+    border : 1px dotted black;
+    display:flex;
+    flex-direction: column;
+    height : 87% ;
+    width : 70% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#title_5 {
+    border : 1px dotted black;
+    height : 60% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+#YouTuber_Name5 {
+    border : 1px dotted black;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+#Info_5_2 {
+    border : 1px dotted black;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+
+
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+
+.item_6-1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border : 1px dotted black;
+    height : 250px ;
+    width : 350px ;
+}
+
+#Thumbnail6 {
+    border : 1px dotted black;
+    height : 70% ;
+    width : 97% ; 
+
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.item_6-2 {
+    display :flex;
+    flex-direction: row;
+    border : 1px dotted black;
+    height : 30% ;
+    width : 97% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#YouTuber_image6 {
+    border : 1px dotted black;
+    height : 87% ;
+    width : 30% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.Info_6_1{
+    border : 1px dotted black;
+    display:flex;
+    flex-direction: column;
+    height : 87% ;
+    width : 70% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#title_6 {
+    border : 1px dotted black;
+    height : 60% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+#YouTuber_Name6 {
+    border : 1px dotted black;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+#Info_6_2 {
+    border : 1px dotted black;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+
+.item_7-1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border : 1px dotted black;
+    height : 250px ;
+    width : 350px ;
+}
+
+#Thumbnail7 {
+    border : 1px dotted black;
+    height : 70% ;
+    width : 97% ; 
+
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.item_7-2 {
+    display :flex;
+    flex-direction: row;
+    border : 1px dotted black;
+    height : 30% ;
+    width : 97% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#YouTuber_image7 {
+    border : 1px dotted black;
+    height : 87% ;
+    width : 30% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.Info_7_1{
+    border : 1px dotted black;
+    display:flex;
+    flex-direction: column;
+    height : 87% ;
+    width : 70% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#title_7 {
+    border : 1px dotted black;
+    height : 60% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+#YouTuber_Name7 {
+    border : 1px dotted black;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+#Info_7_2 {
+    border : 1px dotted black;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+
+
+.item_8-1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border : 1px dotted black;
+    height : 250px ;
+    width : 350px ;
+}
+
+#Thumbnail8 {
+    border : 1px dotted black;
+    height : 70% ;
+    width : 97% ; 
+
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.item_8-2 {
+    display :flex;
+    flex-direction: row;
+    border : 1px dotted black;
+    height : 30% ;
+    width : 97% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#YouTuber_image8 {
+    border : 1px dotted black;
+    height : 87% ;
+    width : 30% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+.Info_8_1{
+    border : 1px dotted black;
+    display:flex;
+    flex-direction: column;
+    height : 87% ;
+    width : 70% ;
+    margin : 2px ;
+    padding : 2px ;
+}
+
+#title_8 {
+    border : 1px dotted black;
+    height : 60% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+#YouTuber_Name8 {
+    border : 1px dotted black;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+#Info_8_2 {
+    border : 1px dotted black;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+}
+
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
