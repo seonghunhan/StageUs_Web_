@@ -1,7 +1,8 @@
 @media (min-width: 640px){
     .container {
+        z-index: 999 ;
         position : fixed;
-        top: 5px;
+        top: 0;
         left: 0;
         right: 0;
         flex-direction: row;  /*메인축을 어느방향으로 할것인지*/
@@ -30,22 +31,24 @@
 
         /* position: absolute; */
 
+        background-color: white;
+
         
 
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 40px;
     }
     .item1 {
         display: flex;
         align-items: flex-start;
-        border: 1px dotted black;
+        border: 1px dotted white;;
         height: 40px;
         margin-left: 8px;
     }
 
     #list {
         /* display: inline-block; */
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         width: 40px; 
         height: 30px;
         margin: 2px;
@@ -69,7 +72,7 @@
     .item2 {
         overflow: hidden;
         display:flex;
-        border: 1px dotted black;
+        border: 1px dotted white;;
         width:40% ;
         height: 100%;
     }
@@ -83,76 +86,106 @@
     }
 
     #search {
-        border: 1px dotted black; 
+        border: 1px dotted black;; 
         height: 80%;
         width: 90%;
         margin:2px;
     }
 
     #keyboard {
-        border: 1px dotted black; 
+        border: 1px dotted black;; 
         height: 80%;
         width: 10%;
         margin:2px;
         padding:1px;
+        background-image: url("keyboard.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     #glass {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 80%;
         width: 8%;
         margin:2px;
         padding:1px;
+        background-image: url("glass.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+
     }
 
     #mic {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 80%;
         width: 8%;
         margin:2px;
         padding:1px;
+        background-image: url("mic.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .item3 {
         display:flex;
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 40px;
     }
 
     #MakeVideo_Icon {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 32px;
         width: 30px;
         margin:2px;
         padding:1px;
+        background-image: url("MakeVideo_Icon.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     #App_Icon {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 32px;
         width: 30px;
         margin:2px;
         padding:1px;
+        background-image: url("App_Icon.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     #Notice_Icon {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 32px;
         width: 30px;
         margin:2px;
         padding:1px;
+        background-image: url("Notice_Icon.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     #Id_Icon {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 32px;
         width: 30px;
         margin:2px;
         padding:1px;
+        background-image: url("Id_Icon.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     }
 
 @media (max-width: 640px){
     .container {
+        z-index: 999 ;
         position : fixed;
-        top: 5px;
+        top: 0;
         left: 0;
         right: 0;
         flex-direction: row;  /*메인축을 어느방향으로 할것인지*/
@@ -160,20 +193,21 @@
         flex-wrap: nowrap;
         justify-content: space-between;   
         align-items: center;   
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 40px;
+        background-color: white;
     }
     .item1 {
         display: flex;
         align-items: flex-start;
-        border: 1px dotted black;
+        border: 1px dotted white;;
         height: 40px;
         margin-left: 8px;
     }
     
     #list {
         /* display: inline-block; */
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         width: 40px; 
         height: 30px;
         margin: 2px;
@@ -195,7 +229,7 @@
     .item2 {
         display:flex;
         justify-content: flex-end;
-        border: 1px dotted black;
+        border: 1px dotted white;;
         width:40% ;
         height: 100%;
     }
@@ -209,7 +243,7 @@
     }
     
     #search {
-        border: 1px dotted black; 
+        border: 1px dotted black;; 
         height: 80%;
         width: 90%;
         margin:2px;
@@ -224,64 +258,89 @@
     }
     
     #glass {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         position: relative;
         right : 2px;
         height: 32px;
         width: 30px;
         margin:2px;
         padding:1px;
+        background-image: url("glass.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     
     #mic {
         display: None;
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 80%;
         width: 8%;
         margin:2px;
         padding:1px;
+        background-image: url("mic.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     
     .item3 {
         display:flex;
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 40px;
     }
     
     #MakeVideo_Icon {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 32px;
         width: 30px;
         margin:2px;
         padding:1px;
+        background-image: url("MakeVideo_Icon.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     #App_Icon {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 32px;
         width: 30px;
         margin:2px;
         padding:1px;
+        background-image: url("App_Icon.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     #Notice_Icon {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 32px;
         width: 30px;
         margin:2px;
         padding:1px;
+        background-image: url("Notice_Icon.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     #Id_Icon {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 32px;
         width: 30px;
         margin:2px;
         padding:1px;
+        background-image: url("Id_Icon.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
 
 @media (max-width: 400px){
     .container {
+        z-index: 999 ;
         position : fixed;
-        top: 5px;
+        top: 0;
         left: 0;
         right: 0;
         flex-direction: row;  
@@ -289,20 +348,20 @@
         flex-wrap: nowrap;
         justify-content: space-between;
         align-items: center;
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 40px;
     }
     .item1 {
         display: flex;
         align-items: flex-start;
-        border: 1px dotted black;
+        border: 1px dotted white;;
         height: 40px;
         margin-left: 8px;
     }
     
     #list {
         /* display: inline-block; */
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         width: 40px; 
         height: 30px;
         margin: 2px;
@@ -324,7 +383,7 @@
     .item2 {
         display:flex;
         justify-content: flex-end;
-        border: 1px dotted black;
+        border: 1px dotted white;;
         width:40% ;
         height: 100%;
     }
@@ -338,14 +397,14 @@
     }
     
     #search {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 80%;
         width: 90%;
         margin:2px;
     }
     
     #keyboard {
-        border: 1px dotted black; 
+        border: 1px dotted black;; 
         height: 80%;
         width: 10%;
         margin:2px;
@@ -353,7 +412,7 @@
     }
     
     #glass {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         position: relative;
         right : 2px;
         height: 32px;
@@ -364,7 +423,7 @@
     
     #mic {
         display: None;
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 80%;
         width: 8%;
         margin:2px;
@@ -373,38 +432,50 @@
     
     .item3 {
         display:flex;
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 40px;
     }
     
     #MakeVideo_Icon {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 32px;
         width: 30px;
         margin:2px;
         padding:1px;
     }
     #App_Icon {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 32px;
         width: 30px;
         margin:2px;
         padding:1px;
+        background-image: url("App_Icon.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     #Notice_Icon {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         display : None;
         height: 32px;
         width: 30px;
         margin:2px;
         padding:1px;
+        background-image: url("Notice_Icon.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     #Id_Icon {
-        border: 1px dotted black; 
+        border: 1px dotted white;; 
         height: 32px;
         width: 30px;
         margin:2px;
         padding:1px;
+        background-image: url("Id_Icon.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
 
@@ -414,19 +485,19 @@
     display : flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 202px;
-    border: 1px dotted black; 
+    width: 270px;
+    border: 1px dotted white;; 
 }
 
 .C2_firstline {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     height : 150px ;
     flex-direction: column;
     display : flex;    
 }
 
 .Home_Btn {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -435,23 +506,29 @@
 }
 
 #image1-1 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 20%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    background-image: url("homeimage.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #text1-1 {
-    border : 1px dotted black;
+    border : 1px dotted white;;    
     width : 80%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    text-align: left;
+    font-size: 120%;
 }
 
 .Search_Btn {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -460,23 +537,29 @@
 }
 
 #image1-2 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 20%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    background-image: url("Searchimage.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #text1-2 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 80%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    text-align: left;
+    font-size: 120%;
 }
 
 .Subscribe_Btn {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -485,30 +568,36 @@
 }
 
 #image1-3 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 20%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    background-image: url("Subscribeimage.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #text1-3 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 80%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    text-align: left;
+    font-size: 120%;
 }
 
 .C2_Secondline {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     height : 250px ;
     flex-direction: column;
-    display : flex;    
+    display : flex;
 }
 
 .Storage_Btn {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -517,22 +606,28 @@
 }
 
 #image2-1 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 20%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    background-image: url("StorageIcon.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #text2-1 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 80%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    text-align: left;
+    font-size: 120%;
 }
 .Log_Btn {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -541,22 +636,28 @@
 }
 
 #image2-2 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 20%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    background-image: url("LogImage.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #text2-2 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 80%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    text-align: left;
+    font-size: 120%;
 }
 .MyVideo_Btn {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -565,22 +666,28 @@
 }
 
 #image2-3 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 20%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    background-image: url("MyVideo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #text2-3 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 80%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    text-align: left;
+    font-size: 120%;
 }
 .WatchLater_Btn {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -589,22 +696,28 @@
 }
 
 #image2-4 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 20%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    background-image: url("WatchLaterImage.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #text2-4 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 80%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    text-align: left;
+    font-size: 120%;
 }
 .LikeVideo_Btn {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -613,39 +726,47 @@
 }
 
 #image2-5 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 20%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    
+    background-image: url("LikeVideoImage.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #text2-5 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 80%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    font-size: 120%;
+    text-align: left;
 }
 
 .C2_Thirdline {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     height : 450px ;
     flex-direction: column;
     display : flex;    
 }
 #Label {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     font-weight: lighter;
-    height : 40px ;
+    font-size: 120%;
+    height : 20px ;
     width : 95% ;
     margin : 2px ;
     padding : 2px ;
 }
 
 .aaa {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -654,23 +775,29 @@
 }
 
 #image3-2 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 20%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    background-image: url("YouTuberIImage1.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #text3-2 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 80%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    text-align: left;
+    font-size: 110%;
 }
 
 .bbb {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -679,23 +806,29 @@
 }
 
 #image3-3 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 20%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    background-image: url("YouTuberIImage2.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #text3-3 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 80%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    text-align: left;
+    font-size: 110%;
 }
 
 .ccc {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -704,23 +837,29 @@
 }
 
 #image3-4 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 20%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    background-image: url("YouTuberIImage3.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #text3-4 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 80%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    text-align: left;
+    font-size: 110%;
 }
 
 .ddd {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -729,23 +868,29 @@
 }
 
 #image3-5 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 20%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    background-image: url("YouTuberIImage4.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #text3-5 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 80%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    text-align: left;
+    font-size: 110%;
 }
 
 .eee {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -754,23 +899,29 @@
 }
 
 #image3-6 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 20%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    background-image: url("YouTuberIImage5.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #text3-6 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 80%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    text-align: left;
+    font-size: 110%;
 }
 
 .fff {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -779,23 +930,29 @@
 }
 
 #image3-7 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 20%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    background-image: url("YouTuberIImage6.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #text3-7 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 80%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    text-align: left;
+    font-size: 110%;
 }
 
 .ggg {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -804,23 +961,29 @@
 }
 
 #image3-8 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 20%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    background-image: url("YouTuberIImage7.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #text3-8 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     width : 80%;
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    text-align: left;
+    font-size: 110%;
 }
 
 .hhh {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -829,7 +992,7 @@
 }
 
 #image3-9 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     font-weight : right;
     width : 20%;
     height : 80% ;
@@ -838,7 +1001,7 @@
 }
 
 #text3-9 {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     font-weight : right;
     width : 80%;
     height : 80% ;
@@ -847,14 +1010,14 @@
 }
 
 .C2_Fourthline {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     height : 350px ;
     flex-direction: column;
     display : flex;    
 }
 
 #C2_F_Label {
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display: flex;
     font-weight: lighter;
     height : 40px ;
@@ -864,7 +1027,7 @@
 }
 
 .aaa4 {
-    border : 1px dotted black;
+    border : 1px dotted white;
     display: flex;
     height : 40px ;
     width : 95% ;
@@ -873,7 +1036,7 @@
 }
 
 #image4-1 {
-    border : 1px dotted black;
+    border : 1px dotted white;
     font-weight : right;
     width : 20%;
     height : 80% ;
@@ -882,7 +1045,7 @@
 }
 
 #text4-1 {
-    border : 1px dotted black;
+    border : 1px dotted white;
     font-weight : right;
     width : 80%;
     height : 80% ;
@@ -890,100 +1053,103 @@
     padding : 2px ;
 }
 
-.Gridcontainer {
-	/* display: grid; */
-    /* display: inline-grid; */
-    /* grid-template-columns: 200px 200px 500px; */
-	/* grid-template-columns: 1fr 1fr 1fr 1fr; */
-	/* grid-template-columns: repeat(4, 1fr); */
-	/* grid-template-columns: 200px 1fr */
-	/* grid-template-columns: 100px 200px auto */
-
-	/* grid-template-rows: 200px 200px 500px; */
-	/* grid-template-rows: 1fr 1fr 1fr 1fr; */
-	/* grid-template-rows: repeat(4, 1fr); */
-	/* grid-template-rows: 200px 1fr */
-	/* grid-template-rows: 100px 200px auto */
-
-    /* gap: 100px 200px;
-    grid-gap: 20px; */
+#Gridcontainer {
     position: absolute;
-
     display: inline-flex ;
     flex-wrap: wrap ;
     flex-direction: row;
     top: 60px;
-    left: 220px;
+    left: 280px;
 }
 
 .item_1-1 {
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
-    border : 1px dotted black;
-    height : 250px ;
+    border : 1px dotted white;
+    height : 300px ;
     width : 350px ;
 }
 
-#Thumbnail1 {
-    border : 1px dotted black;
-    height : 70% ;
+.Thumbnail {
+    border : 1px dotted white;
+    height : 56% ;
     width : 97% ; 
-
     margin : 2px ;
     padding : 2px ;
+} 
+
+
+.imagesize {
+    width: 100%;
+    height: 100%;
 }
 
 .item_1-2 {
     display :flex;
     flex-direction: row;
-    border : 1px dotted black;
-    height : 30% ;
+    border : 1px dotted white;;
+    height : 37% ;
     width : 97% ;
     margin : 2px ;
     padding : 2px ;
 }
 
-#YouTuber_image1 {
-    border : 1px dotted black;
+
+.Test {
+    border : 1px dotted white;;
     height : 87% ;
-    width : 30% ;
+    width : 20% ;
     margin : 2px ;
     padding : 2px ;
+
+}
+.YouTuber_image1 {
+    border : 1px dotted white;;
+    height : 87% ;
+    width : 20% ;
+    margin : 2px ;
+    padding : 2px ;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
 }
 
 .Info_1_1{
-    border : 1px dotted black;
+    border : 1px dotted white;;
     display:flex;
     flex-direction: column;
     height : 87% ;
-    width : 70% ;
+    width : 80% ;
     margin : 2px ;
     padding : 2px ;
 }
 
-#title_1 {
-    border : 1px dotted black;
+.title {
+    border : 1px dotted white;;
     height : 60% ;
     width : 98% ;
     margin : 1px ;
     padding : 1px ;
 }
-#YouTuber_Name1 {
-    border : 1px dotted black;
+.YouTuber_Name1 {
+    border : 1px dotted white;;
     height : 20% ;
     width : 98% ;
     margin : 1px ;
     padding : 1px ;
-}
-#Info_1_2 {
-    border : 1px dotted black;
-    height : 20% ;
-    width : 98% ;
-    margin : 1px ;
-    padding : 1px ;
+    font-weight: lighter;
 }
 
+.Info_1_2 {
+    border : 1px dotted white;;
+    height : 20% ;
+    width : 98% ;
+    margin : 1px ;
+    padding : 1px ;
+    font-weight: lighter;
+}
+/*
 .item_2-1 {
     display:flex;
     flex-direction: column;
@@ -1052,8 +1218,7 @@
     padding : 1px ;
 }
 
-/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
-
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> 
 .item_3-1 {
     display:flex;
     flex-direction: column;
@@ -1123,7 +1288,7 @@
 }
 
 
-/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> 
 
 .item_4-1 {
     display:flex;
@@ -1194,7 +1359,7 @@
 }
 
 
-/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> 
 
 .item_5-1 {
     display:flex;
@@ -1265,7 +1430,7 @@
 }
 
 
-/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ-->
 
 .item_6-1 {
     display:flex;
@@ -1335,7 +1500,7 @@
     padding : 1px ;
 }
 
-/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> 
 
 .item_7-1 {
     display:flex;
@@ -1405,7 +1570,7 @@
     padding : 1px ;
 }
 
-/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> 
 
 
 .item_8-1 {
@@ -1476,7 +1641,7 @@
     padding : 1px ;
 }
 
-/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> 
 
 .item_9-1 {
     display:flex;
@@ -1546,8 +1711,7 @@
     padding : 1px ;
 }
 
-/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
-
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> 
 .item_10-1 {
     display:flex;
     flex-direction: column;
@@ -1616,7 +1780,7 @@
     padding : 1px ;
 }
 
-/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> 
 
 .item_11-1 {
     display:flex;
@@ -1686,7 +1850,7 @@
     padding : 1px ;
 }
 
-/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> 
 
 .item_12-1 {
     display:flex;
@@ -1756,7 +1920,7 @@
     padding : 1px ;
 }
 
-/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> 
 
 .item_13-1 {
     display:flex;
@@ -1826,7 +1990,7 @@
     padding : 1px ;
 }
 
-/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> 
 
 .item_14-1 {
     display:flex;
@@ -1896,7 +2060,7 @@
     padding : 1px ;
 }
 
-/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> 
 
 .item_15-1 {
     display:flex;
@@ -1966,8 +2130,7 @@
     padding : 1px ;
 }
 
-/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> */
-
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ--> 
 .item_16-1 {
     display:flex;
     flex-direction: column;
@@ -2034,4 +2197,4 @@
     width : 98% ;
     margin : 1px ;
     padding : 1px ;
-}
+} */
