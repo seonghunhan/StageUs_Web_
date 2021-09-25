@@ -2,7 +2,8 @@ function printAlert(value ) {
      alert(value);  //알림창띄우는기능
     console.log(value) //콘솔창에 프린트하는 기능 (디버깅할때 사용)
 }
-
+ //★★★★★ 함수 내부에 var쓰면 지역변수, 그냥쓰면 전역변수
+ //★★★★★ 함수 외부에서 var쓰면 전역변수
     
 function mul() {
 

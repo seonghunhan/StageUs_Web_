@@ -10,10 +10,10 @@
 <body>
     
     
-    <header class="container">
+    <header id="container" >
         <div class="item1">
             <!-- <span id="list"></span> -->
-            <input type="button" value="" class="bookmark-btt" id="list">
+            <span onclick="openNav()" id="list"></span>
             <span id="logo"></span>
         </div>
         <div class="item2">
@@ -33,13 +33,42 @@
 
 
     <nav>
-        <div class="container2">
+        <div>
+            <div class="alwaysOpen_sidebar">
+                <div class="Sidebar_Btn" href:>
+                    <span class="image">
+                        <img src="homeimage.png" alt="" class="imagesize1">
+                    </span>
+                    <span class="text">홈</span>
+                    
+                </div>
+                <div class="Sidebar_Btn">
+                    <span class="image">
+                        <img src="Searchimage.png" alt="" class="imagesize1">
+                    </span>
+                    <span class="text">탐색</span>
+                </div>
+                <div class="Sidebar_Btn">
+                    <span class="image">
+                        <img src="Subscribeimage.png" alt="" class="imagesize1">
+                    </span>
+                    <span class="text">구독</span>
+                </div>
+                <div class="Sidebar_Btn">
+                    <span class="image">
+                        <img src="StorageIcon.png" alt="" class="imagesize1">
+                    </span>
+                    <span class="text">보관함</span>
+            </div>    
+        </div>
+        <div class="container2" id="sidebar">
             <div class="C2_firstline">
                 <div class="Sidebar_Btn" href:>
                     <span class="image">
                         <img src="homeimage.png" alt="" class="imagesize1">
                     </span>
                     <span class="text">홈</span>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 </div>
                 <div class="Sidebar_Btn">
                     <span class="image">

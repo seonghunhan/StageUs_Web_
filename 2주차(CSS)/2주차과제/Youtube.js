@@ -1,13 +1,15 @@
-const bookBtn = document.querySelector('.bookmark-btt');
-const container2 = document.querySelector('.container2');
-// const label = document.querySelector('label');
+/* Set the width of the side navigation to 250px */
+function openNav() {
 
-bookBtn.addEventListener('click', function(){
-    container2.style.left = 0;
-    //label.style.opacity = 0;
-})
+    document.getElementById("sidebar").style.left = "0px";
+    document.getElementById("Gridcontainer").style.opacity = "0.5";
+    document.getElementById("container").style.opacity = "0.5";
+  }
+  
+  /* Set the width of the side navigation to 0 */
+  function closeNav() {
 
-bookBtn.addEventListener('blur', function(){
-    container2.style.left = '-200px' ;
-    // label.style.opacity = 1;
-})
+    document.getElementById("sidebar").style.left = "-270px";
+    document.getElementById("Gridcontainer").style.opacity = "1";
+    document.getElementById("container").style.opacity = "1";
+  }

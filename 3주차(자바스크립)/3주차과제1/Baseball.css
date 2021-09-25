@@ -1,0 +1,58 @@
+#input_Number{
+    border : 1px solid black;
+   
+    display: grid;
+    width: 800px;
+    height: 700px;
+    grid-template-rows: 1fr 0.5fr 0.5fr 2fr; 
+}
+
+.Number{ 
+    border : 1px solid black;
+    padding:10px;
+    height: 100px;
+    width: 100px;
+    top:30px;
+    font-size:65px;
+    text-align: center;
+    
+   
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.FunBtn{
+    width:100px;
+    height: 40px;
+}
+
+#print {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    position:relative;
+    left:250px;   
+    font-size: 20px;
+    
+}
+
+.NumBtn{
+    padding:10px;
+    width:40px;
+    height:40px;
+    text-align: center;
+}
+
+.active:active {
+    color: red;
+}
+.focus:focus {
+    color: red;
+}
+:target {
+    color: red;
+}

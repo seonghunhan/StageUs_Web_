@@ -4,20 +4,59 @@
 
 .container2 {
     position : fixed;
+    width:270px;
     top: 45px;
     display : flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 270px;
+    
     border: 1px dotted white;; 
-    left : -200px;
+    left : -270px;
+    transition: 0.5s;
+    background-color: white;
+    z-index: 2;
 }
+
+.container2 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+.container2 a:hover {
+    color: grey
+  }
+  
+  /* Position and style the close button (top right corner) */
+.container2 .closebtn {
+    position: absolute;
+    top: -15px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
 
 .C2_firstline {
     border : 1px dotted white;;
     height : 150px ;
     flex-direction: column;
     display : flex;    
+    background-color: white;
+}
+
+.alwaysOpen_sidebar{
+    position : fixed;
+    width:170px;
+    top: 45px;
+    display : flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    border: 1px dotted white;;     
 }
 
 .Sidebar_Btn {
@@ -27,6 +66,7 @@
     width : 95% ;
     margin : 2px ;
     padding : 2px ;
+    background-color: white;
 }
 
 .image {
@@ -36,11 +76,13 @@
     margin : 1px ;
     padding : 2px ;
     text-align: center;
+    background-color: white;
 }
 
 .imagesize1 {
     width: 80%;
     height: 100%;
+    background-color: white;
 }
 
 .text {
@@ -51,6 +93,7 @@
     padding : 2px ;
     text-align: left;
     font-size: 110%;
+    background-color: white;
 }
 
 .C2_Secondline {
@@ -58,13 +101,15 @@
     height : 250px ;
     flex-direction: column;
     display : flex;
+    background-color: white;
 }
 
 .C2_Thirdline {
     border : 1px dotted white;;
     height : 450px ;
     flex-direction: column;
-    display : flex;    
+    display : flex;   
+    background-color: white; 
 }
 #Label {
     border : 1px dotted white;;
@@ -75,6 +120,7 @@
     width : 95% ;
     margin : 2px ;
     padding : 2px ;
+    background-color: white;
 }
 
 #imageV {
@@ -84,6 +130,7 @@
     height : 80% ;
     margin : 1px ;
     padding : 2px ;
+    background-color: white;
 }
 
 
@@ -92,6 +139,7 @@
     height : 350px ;
     flex-direction: column;
     display : flex;    
+    background-color: white;
 }
 
 #C2_F_Label {
@@ -102,6 +150,7 @@
     width : 95% ;
     margin : 2px ;
     padding : 2px ;
+    background-color: white;
 }
 
 
@@ -113,7 +162,9 @@
     flex-wrap: wrap ;
     flex-direction: row;
     top: 60px;
-    left: 280px;
+    left: 200px;
+    z-index: 1;
+    opacity: 1;
 }
 
 .item_1-1 {
@@ -207,7 +258,7 @@
 /* -----------------------------------------------------------Header */
 
 @media (min-width: 640px){
-    .container {
+    #container {
         z-index: 999 ;
         position : fixed;
         top: 0;
@@ -245,6 +296,7 @@
 
         border: 1px dotted white;; 
         height: 40px;
+        opacity:1;
     }
     .item1 {
         display: flex;
@@ -390,7 +442,7 @@
     }
 
 @media (max-width: 640px){
-    .container {
+    #container {
         z-index: 999 ;
         position : fixed;
         top: 0;
@@ -404,6 +456,7 @@
         border: 1px dotted white;; 
         height: 40px;
         background-color: white;
+        opacity:1;
     }
     .item1 {
         display: flex;
@@ -545,7 +598,7 @@
 }
 
 @media (max-width: 400px){
-    .container {
+    #container {
         z-index: 999 ;
         position : fixed;
         top: 0;
@@ -558,6 +611,7 @@
         align-items: center;
         border: 1px dotted white;; 
         height: 40px;
+        opacity:1;
     }
     .item1 {
         display: flex;

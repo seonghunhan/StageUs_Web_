@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet", type="text/css", href="./Baseball.css">
+    <title>Baseball</title>
+</head>
+<body>
+
+    <main>
+        <div id="input_Number">
+            <div class="flex">
+                <span id="1th_No" class=Number></span>
+                <span id="2th_No" class=Number></span>
+                <span id="3th_No" class=Number></span>
+            </div>
+            <div class="flex">
+                <input type="button" value="Start" onclick="Start()" class="FunBtn">
+                <input type="button" value="Result" onclick="calculation()" class="FunBtn">
+            </div>
+            <div class="flex">
+                <input type="button"  id="Num_Btn0" value="0" onclick="choise_btn('0')" class="NumBtn">
+                <input type="button"  id="Num_Btn1" value="1" onclick="choise_btn('1')" class="NumBtn">
+                <input type="button"  id="Num_Btn2" value="2" onclick="choise_btn('2')" class="NumBtn">
+                <input type="button"  id="Num_Btn3" value="3" onclick="choise_btn('3')" class="NumBtn">
+                <input type="button"  id="Num_Btn4" value="4" onclick="choise_btn('4')" class="NumBtn">
+                <input type="button"  id="Num_Btn5" value="5" onclick="choise_btn('5')" class="NumBtn">
+                <input type="button"  id="Num_Btn6" value="6" onclick="choise_btn('6')" class="NumBtn">
+                <input type="button"  id="Num_Btn7" value="7" onclick="choise_btn('7')" class="NumBtn">
+                <input type="button"  id="Num_Btn8" value="8" onclick="choise_btn('8')" class="NumBtn">
+                <input type="button"  id="Num_Btn9" value="9" onclick="choise_btn('9')" class="NumBtn">
+            </div>
+            <div>
+                <textarea placeholder="            결과값            " rows="10" cols="20" id="print" readonly></textarea>
+            </div>
+        </div>
+
+
+    </main>
+    
+
+    <script src="Baseball.js"></script>
+</body>
+</html>
