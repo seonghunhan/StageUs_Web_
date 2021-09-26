@@ -2,21 +2,21 @@ var No_list = []
 var PassNumber = []
 
 function Start() {
-    var PassNumber1 = Math.floor(Math.random() * 9) + 1;
-    var PassNumber2 = Math.floor(Math.random() * 9) + 1;
-    var PassNumber3 = Math.floor(Math.random() * 9) + 1;
+    PassNumber1 = Math.floor(Math.random() * 9) + 1;
+    PassNumber2 = Math.floor(Math.random() * 9) + 1;
+    PassNumber3 = Math.floor(Math.random() * 9) + 1;
 
 
     while (PassNumber2 == PassNumber1) {                  //while (조건) 조건일떄까지 반복이아니고 조건이 True이면 반복으로 알자
         PassNumber2 = Math.floor(Math.random() * 9) + 1;
     }
 
-    while (PassNumber3 == PassNumber1 || PassNumber3 == PassNumber2) {                  //while (조건) 조건일떄까지 반복이아니고 조건이 True이면 반복으로 알자
+    while (PassNumber3 == PassNumber1 || PassNumber3 == PassNumber2) { //while (조건) 조건일떄까지 반복이아니고 조건이 True이면 반복으로 알자
         PassNumber3 = Math.floor(Math.random() * 9) + 1;
     }
 
     
-    for (var index=0; index<10; index++) {
+    for (var index=1; index<10; index++) {
         var target = document.getElementById("Num_Btn"+index);
         target.disabled = false;
 
@@ -26,24 +26,13 @@ function Start() {
         remove();
     }
 
-    let PassNumber = [PassNumber1,PassNumber2,PassNumber3]
-
+    let test1 = [PassNumber1,PassNumber2,PassNumber3]
+    PassNumber = test1
     console.log(PassNumber1,PassNumber2,PassNumber3)
     console.log(PassNumber)
 }
 
-function input0(value) {
 
-    var input1 = document.getElementById("1th_No");
-
-    input1.innerHTML = value;
-}
-
-function btnActive()  {
-    var target = document.getElementsByClassName("NumBtn");
-    target.disabled = false;
-}
-  
 
 
 function choise_btn(value) {
@@ -57,7 +46,7 @@ function choise_btn(value) {
 function input_btn(value) {
 
 
-    No_list.push(value);
+    No_list.push(Number(value));
     console.log(No_list)
 
 
@@ -92,19 +81,48 @@ function remove() {
 }
 
 function calculation() {
+    console.log(No_list);
+
+    
+
+    var test2 = (PassNumber.filter(x => No_list.includes(x))).length;
+    
+    var strike_count = 0
+    var ball_count = 0
+    var out_count = 0
+    for (var index=0 ; index<3; index++){
+        if (No_list[index] == PassNumber[index]){
+            strike_count += 1;
+        }
+        else if (PassNumber.indexOf(No_list[index]) > -1){ //특정 문자를 만나지 못하면 그때는 -1 을 반환한다.//PassNum에 No_list를 넣어가며 비교
+            ball_count += 1;
+        }
+        else if (PassNumber.indexOf(No_list[index]) == -1){
+            out_count += 1;
+        }
+    }
+
+
+
     No_list.splice(0, No_list.length);
     input1.innerHTML = ""
     input2.innerHTML = ""
     input3.innerHTML = ""
 
-    for (var index=0; index<10; index++) {
+    for (var index=1; index<10; index++) {
         var target = document.getElementById("Num_Btn"+index);
         target.disabled = false;
     }
 
     var print = document.getElementById("print")
-    print.innerHTML += "1B 2S 3O                           "
+    print.innerHTML += ball_count+"B "+strike_count+ "S "+out_count+"O                           "
 
+    if (strike_count == 3){
+        alert("ㅊㅋㅊㅋ")
+    }
+    console.log(PassNumber)
+
+    
     
 }
 
