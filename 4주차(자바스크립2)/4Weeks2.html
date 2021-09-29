@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4Weeks2</title>
+</head>
+
+    <style>
+        .color {
+            width: 100px;
+            height: 50px;
+        }
+        #color1 {
+            background-color: red;
+        }
+        #color2 {
+        background-color: orange;
+        }
+
+        #color3 {
+        background-color: yellow;
+        }
+        #result {
+            width: 300px;
+            height: 50px;
+            border: 1px solid black
+        }
+
+    </style>
+
+<body>
+    
+
+    <div id="color1" class="color" draggable="true" ondragstart="mydragEvent(0)"></div>  
+    <div id="color2" class="color" draggable="true" ondragstart="mydragEvent(1)"></div>
+    <div id="color3" class="color" draggable="true" ondragstart="mydragEvent(2)"></div>
+
+    <div id="result" ondragover="myDragOverEvent(event)" ondrop="mydropEvent()"></div> <!--event변수는 실행될때 실행되는 주체에 정보(돔이나 등등)-->
+
+    <script>
+        var myColor = null ; //파이썬에서 none값과 같음  undefined는 휴지심은있는데 휴지가없는거, null은 휴지심조차 없는것
+        function mydragEvent(index) {
+            var targetDiv = document.getElementsByClassName("color");
+            //myColor = targetDiv[index].style.backgroundColor; //타겟이브 암에 스타일의 백그라운드컬러(내장변수)를 마이컬러로 넣는다 (C대문자도 꼭 해줘야함)
+                                                            //근데 style명령어는 html element의 속성을 가져옴 그래서 없으면 null값 가져온다
+            myColor = window.getComputedStyle(targetDiv[index]).backgroundColor; //웹브라우져가 해석한(html,css,js)결과물을 가져온다
+            console.log(myColor);
+        }
+
+        function myDragOverEvent(e) {
+            e.preventDefault(); //현재 드랍이 끝날때까지 다른이벤트가 끼여들지 말라는 함수(필수) (만약 넣으려는 박스에 이미 마우스온등의 이벤트가있다면 그런걸 무시해준다라는것)
+
+        }
+
+        function mydropEvent() {
+            document.getElementById("result").style.backgroundColor = myColor;
+
+        }
+    </script>
+
+</body>
+</html>

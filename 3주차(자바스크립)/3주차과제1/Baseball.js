@@ -1,13 +1,12 @@
 var No_list = []
 var PassNumber = []
 
-function Start() {
+function Start() {  
     PassNumber1 = Math.floor(Math.random() * 9) + 1;
     PassNumber2 = Math.floor(Math.random() * 9) + 1;
     PassNumber3 = Math.floor(Math.random() * 9) + 1;
 
-
-    while (PassNumber2 == PassNumber1) {                  //while (조건) 조건일떄까지 반복이아니고 조건이 True이면 반복으로 알자
+    while (PassNumber2 == PassNumber1) {  //while (조건) 조건일떄까지 반복이아니고 조건이 True이면 반복으로 알자
         PassNumber2 = Math.floor(Math.random() * 9) + 1;
     }
 
@@ -15,11 +14,9 @@ function Start() {
         PassNumber3 = Math.floor(Math.random() * 9) + 1;
     }
 
-    
     for (var index=1; index<10; index++) {
         var target = document.getElementById("Num_Btn"+index);
         target.disabled = false;
-
     }
 
     if (No_list.length > 0) {
@@ -33,32 +30,21 @@ function Start() {
 }
 
 
-
-
-function choise_btn(value) {
+function choise_btn(value) { //선택한 번호 이중클릭방지
     // console.log("Num_Btn"+value)
     var target = document.getElementById("Num_Btn"+value);
     target.disabled = true;
-
     input_btn(value);
 }
 
-function input_btn(value) {
-
+function input_btn(value) {  //번호창에 입력한 버튼 출력
 
     No_list.push(Number(value));
     console.log(No_list)
 
-
-
     input1 = document.getElementById("1th_No");
     input2 = document.getElementById("2th_No");
     input3 = document.getElementById("3th_No");
-
-    
-    // input1.innerHTML = No_list[0]
-    // input2.innerHTML = No_list[1]
-    // input3.innerHTML = No_list[2]
 
     if (No_list.length == 1) {
         input1.innerHTML = No_list[0];
@@ -69,24 +55,20 @@ function input_btn(value) {
     else if (No_list.length == 3) {
         input3.innerHTML = No_list[2];
     }
-
-
 }
 
-function remove() {
+function remove() {  // 번호 및 리스트 리셋
+
     No_list.splice(0, No_list.length);
     input1.innerHTML = ""
     input2.innerHTML = ""
     input3.innerHTML = ""
 }
 
-function calculation() {
+function calculation() { //계산
+
     console.log(No_list);
-
-    
-
     var test2 = (PassNumber.filter(x => No_list.includes(x))).length;
-    
     var strike_count = 0
     var ball_count = 0
     var out_count = 0
@@ -102,14 +84,12 @@ function calculation() {
         }
     }
 
-
-
     No_list.splice(0, No_list.length);
     input1.innerHTML = ""
     input2.innerHTML = ""
     input3.innerHTML = ""
 
-    for (var index=1; index<10; index++) {
+    for (var index=1; index<10; index++) {  
         var target = document.getElementById("Num_Btn"+index);
         target.disabled = false;
     }

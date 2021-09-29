@@ -12,7 +12,7 @@
     
     border: 1px dotted white;; 
     left : -270px;
-    transition: 0.5s;
+    transition:  0.5s;  /*left 0.5를 줘야함, 그게 더 정확함*/
     background-color: white;
     z-index: 2;
 }

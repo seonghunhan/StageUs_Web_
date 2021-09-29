@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4weeks</title>
+</head>
+<body>
+    <div id="box">
+    <input id="targetNum" type="text">
+    <input type = "button" value="구구단" onclick="resultEvent()">
+    </div>
+
+
+    <script>
+        function resultEvent() {
+            var targetNum = document.getElementById("targetNum").value;
+            
+            var resultList = document.getElementsByClassName("result");   //클래스로 부르면 타입이 배열임
+
+            for (var index = 0; index<9; index++){
+                var tmpBox = document.createElement("div")
+
+                var tmpSpan = document.createElement("span")
+                tmpSpan.innerHTML = targetNum + "X" + (index+1);
+
+                var tmpDiv = document.createElement("span")  // 동적으로 돔을 만드는것(자바스크립트에서 만들어주는것)
+                tmpDiv.classNmae = "result" //이걸로 css에서 꾸며줄수도 있음
+                tmpDiv.innerHTML = targetNum * (index+1);
+
+                tmpBox.appendChild(tmpSpan);
+                tmpBox.appendChild(tmpDiv);
+
+                document.getElementById("box").appendChild(tmpBox)  //id가 박스인곳에 자식으로 내가만든 tmpBox를 만들겠다
+    
+                //document.body.appendChild(tmpDiv) //body안에 자식으로 내가만든 tmpDiv를 만들겠다
+
+
+                // resultList[index].innerHTML = targetNum * (index+1) ;
+            } 
+
+            // for (var index = 1; index<10; index++) {
+            //     document.getElementById("result" + index).innerHTML = targetNum * index ;
+            // }
+        }
+    </script>
+</body>
+</html>
