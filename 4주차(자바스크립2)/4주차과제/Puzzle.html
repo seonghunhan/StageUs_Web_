@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle</title>
+    <link rel="stylesheet", type="text/css", href="Puzzle.css">
+</head>
+<body>
+    <main>
+        <div id = "number">
+            <div id = "number_box1" class = "number_box " draggable="true" ondragstart="dragEvent1(0)" ondragover="myDragOverEvent2(event)" ondrop="dropEvent1(0)">1</div>
+            <div id = "number_box2" class = "number_box " draggable="true" ondragstart="dragEvent1(1)" ondragover="myDragOverEvent2(event)" ondrop="dropEvent1(1)">2</div>
+            <div id = "number_box3" class = "number_box " draggable="true" ondragstart="dragEvent1(2)" ondragover="myDragOverEvent2(event)" ondrop="dropEvent1(2)">3</div>
+            <div id = "number_box4" class = "number_box " draggable="true" ondragstart="dragEvent1(3)" ondragover="myDragOverEvent2(event)" ondrop="dropEvent1(3)">4</div>
+            <div id = "number_box5" class = "number_box " draggable="true" ondragstart="dragEvent1(4)" ondragover="myDragOverEvent2(event)" ondrop="dropEvent1(4)">5</div>
+            <div id = "number_box6" class = "number_box " draggable="true" ondragstart="dragEvent1(5)" ondragover="myDragOverEvent2(event)" ondrop="dropEvent1(5)">6</div>
+            <div id = "number_box7" class = "number_box " draggable="true" ondragstart="dragEvent1(6)" ondragover="myDragOverEvent2(event)" ondrop="dropEvent1(6)">7</div>
+            <div id = "number_box8" class = "number_box " draggable="true" ondragstart="dragEvent1(7)" ondragover="myDragOverEvent2(event)" ondrop="dropEvent1(7)">8</div>
+            <div id = "number_box9" class = "number_box " draggable="true" ondragstart="dragEvent1(8)" ondragover="myDragOverEvent2(event)" ondrop="dropEvent1(8)">9</div>
+        </div>
+        <div id = "result_number">
+            <div id = "result_box1" class = "result_number_box " ondragover="myDragOverEvent2(event)" ondrop="dropEvent2(0)" draggable="true" ondragstart="dragEvent2(0)"></div>
+            <div id = "result_box2" class = "result_number_box " ondragover="myDragOverEvent2(event)" ondrop="dropEvent2(1)" draggable="true" ondragstart="dragEvent2(1)"></div>
+            <div id = "result_box3" class = "result_number_box " ondragover="myDragOverEvent2(event)" ondrop="dropEvent2(2)" draggable="true" ondragstart="dragEvent2(2)"></div>
+            <div id = "result_box4" class = "result_number_box " ondragover="myDragOverEvent2(event)" ondrop="dropEvent2(3)" draggable="true" ondragstart="dragEvent2(3)"></div>
+            <div id = "result_box5" class = "result_number_box " ondragover="myDragOverEvent2(event)" ondrop="dropEvent2(4)" draggable="true" ondragstart="dragEvent2(4)"></div>
+            <div id = "result_box6" class = "result_number_box " ondragover="myDragOverEvent2(event)" ondrop="dropEvent2(5)" draggable="true" ondragstart="dragEvent2(5)"></div>
+            <div id = "result_box7" class = "result_number_box " ondragover="myDragOverEvent2(event)" ondrop="dropEvent2(6)" draggable="true" ondragstart="dragEvent2(6)"></div>
+            <div id = "result_box8" class = "result_number_box " ondragover="myDragOverEvent2(event)" ondrop="dropEvent2(7)" draggable="true" ondragstart="dragEvent2(7)"></div>
+            <div id = "result_box9" class = "result_number_box " ondragover="myDragOverEvent2(event)" ondrop="dropEvent2(8)" draggable="true" ondragstart="dragEvent2(8)"></div>
+        </div>
+        <div id = "button">3</div>
+    </main>
+    
+    <script src="Puzzle.js"></script>
+</body>
+</html>

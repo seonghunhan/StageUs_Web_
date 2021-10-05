@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>icando</title>
+    <link rel="stylesheet", type="text/css", href="icando.css">
+</head>
+<body>
+    <main>
+        
+        <div id= "container1">
+            <span class = "puzzle_box">
+                <div>
+                    <span id = "piece1" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(0)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(0)">1</span>
+                    <span id = "piece2" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(1)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(1)">2</span>
+                    <span id = "piece3" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(2)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(2)">3</span>
+                </div>
+                <div>
+                    <span id = "piece4" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(3)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(3)">4</span>
+                    <span id = "piece5" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(4)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(4)">5</span>
+                    <span id = "piece6" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(5)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(5)">6</span>
+                </div>
+                <div>
+                    <span id = "piece7" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(6)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(6)">7</span>
+                    <span id = "piece8" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(7)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(7)">8</span>
+                    <span id = "piece9" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(8)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(8)">9</span>
+                </div>
+            </span>
+            <span class = "puzzle_box">
+                <div>
+                    <span id = "piece10" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(9)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(9)">10</span>
+                    <span id = "piece11" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(10)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(10)">11</span>
+                    <span id = "piece12" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(11)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(11)">12</span>
+                </div>
+                <div>
+                    <span id = "piece13" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(12)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(12)">13</span>
+                    <span id = "piece14" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(13)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(13)">14</span>
+                    <span id = "piece15" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(14)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(14)">15</span>
+                </div>
+                <div>
+                    <span id = "piece16" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(15)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(15)">16</span>
+                    <span id = "piece17" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(16)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(16)">17</span>
+                    <span id = "piece18" class = "puzzle_piece" draggable="true" ondragstart="dragEvent(17)" ondragover="myDragOverEvent(event)" ondrop="dropEvent(17)">18</span>
+                </div>
+            </span>
+        </div>
+        <div id = "container2">
+            <input id = "Shupple" type="button" value="Shupple" onclick="shupple()" >
+            <span id = "timer"></span>
+        </div>
+    </main>
+    
+    <script src="icando.js"></script>
+</body>
+</html>

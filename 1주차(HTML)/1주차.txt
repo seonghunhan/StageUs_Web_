@@ -94,8 +94,10 @@ Semantic Tag
 width와 height 속성 지정 및 margin과 padding 속성의 상하 간격 지정이 가능해집니다.)
 <button>이나 <input>, <select> 태그 
 
+inline태그에서 width,height같은속성 못맥임,,, 근데 margin은 top,bottom은 못먹고 left,right는 먹힌다
 
-
+근데 block태그에서도 가끔 마진상쇄가 일어나는데 이럴때는 padding,border를 이용해서 해결해야함
+(e비지니스 5주차수업 참고)
 
 
 포지션은 원래위치상관없이 다른곳에 left,top등으로 보이게하려는것

@@ -33,14 +33,20 @@
 <body>
     
 
-    <div id="color1" class="color" draggable="true" ondragstart="mydragEvent(0)"></div>  
+    <div id="color1" class="color" draggable="true" ondragstart="mydragEvent(0)">1</div>  
     <div id="color2" class="color" draggable="true" ondragstart="mydragEvent(1)"></div>
     <div id="color3" class="color" draggable="true" ondragstart="mydragEvent(2)"></div>
 
     <div id="result" ondragover="myDragOverEvent(event)" ondrop="mydropEvent()"></div> <!--event변수는 실행될때 실행되는 주체에 정보(돔이나 등등)-->
 
+
+
+
+
     <script>
         var myColor = null ; //파이썬에서 none값과 같음  undefined는 휴지심은있는데 휴지가없는거, null은 휴지심조차 없는것
+
+        
         function mydragEvent(index) {
             var targetDiv = document.getElementsByClassName("color");
             //myColor = targetDiv[index].style.backgroundColor; //타겟이브 암에 스타일의 백그라운드컬러(내장변수)를 마이컬러로 넣는다 (C대문자도 꼭 해줘야함)
